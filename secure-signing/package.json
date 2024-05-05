@@ -1,0 +1,15 @@
+{
+  "name": "secure-signing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "signPayment.js",
+  "scripts": {
+    "start": "node signPayment.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xrpl": "^3.0.0"
+  }
+}

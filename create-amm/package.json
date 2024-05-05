@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "create-amm": "ts-node create-amm.ts"
+    "start": "ts-node create-amm.ts"
   },
   "keywords": [],
   "author": "",

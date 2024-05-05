@@ -2,5 +2,16 @@
   "dependencies": {
     "xrpl": "^3.0.0",
     "bignumber.js": "^9.0.0"
-  }
+  },
+  "name": "trade-in-the-decentralized-exchange",
+  "description": "> This code demonstrates how to buy a fungible token on the XRP Ledger's decentralized exchange (DEX). For a detailed explanation of how to trade using the DEX.",
+  "version": "1.0.0",
+  "main": "base-with-bignumber.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node trade-in-the-dex.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }

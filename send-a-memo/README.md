@@ -1,9 +1,8 @@
-# JavaScript send Memo examples
+# Send a Memo
 
-Generates a random account and creates a payment transaction with Memo field.
+> Generates a random account and creates a payment transaction with Memo field.
 
-### Random seed
+## Usage:
 
-```
-npm start
-```
+- install the dependencies : `npm install`
+- run the script : `npm start`

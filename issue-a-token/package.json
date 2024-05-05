@@ -1,5 +1,16 @@
 {
   "dependencies": {
     "xrpl": "^3.0.0"
-  }
+  },
+  "name": "issue-a-token",
+  "description": "This code demonstrates how to issue a (fungible) token on the XRP Ledger. For a detailed explanation, see <https://xrpl.org/issue-a-fungible-token.html>.",
+  "version": "1.0.0",
+  "main": "issue-a-token.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node issue-a-token.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }

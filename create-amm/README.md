@@ -1,3 +1,8 @@
 # Create AMM
 
-Code samples for the [Create an Automated Market Maker tutorial](../../docs/tutorials/how-tos/use-tokens/create-an-automated-market-maker.md), showing how to make set up a new AMM.
+> Demonstration of how to create and use an AMM (for token/token & token/xrp)
+
+## Usage:
+
+- install the dependencies : `npm install`
+- run the script : `npm start`
