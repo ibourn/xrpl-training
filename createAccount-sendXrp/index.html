@@ -1,0 +1,111 @@
+<html>
+  <head>
+    <title>XRPL Token Test Harness</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Work Sans"
+      rel="stylesheet"
+    />
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+
+ <div id="selectLedger">
+  <div class="appField">
+    <strong>Choose your ledger instance:</strong><br />
+    <input type="radio" id="tn" name="server" value="wss://s.altnet.rippletest.net:51233" checked>
+    <label for="testnet">Testnet</label>
+    &nbsp;&nbsp;
+    <input type="radio" id="dn" name="server" value="wss://s.devnet.rippletest.net:51233">
+    <label for="devnet">Devnet</label>
+  </div>
+  <div class="appField">
+    <button id="getAccountsFromSeeds" type="button">Get Accounts From Seeds</button><br />
+    <textarea id="seeds" cols="40" rows="2" placeholder="Standby seed&#10;Operational seed"></textarea>
+  </div>
+</div>
+<div id="flexContainer">
+<div class="flexColumn">  
+<div id="standbyApp">
+  <button id="createAccountButton" type="button">Create Account</button
+      ><br />
+  <h2>Standby Account Info</h2>
+  <div class="appField">Standby Account<br />
+    <div id="standbyAccountField" class="appValue"></div>
+  </div>
+  <div class="appField">Public Key<br />
+    <div id="standbyPubKeyField" class="appValue"></div>
+  </div>
+  <div class="appField">Private Key<br />
+    <div id="standbyPrivKeyField" class="appValue"></div>
+  </div>
+  <div class="appField"> Seed<br />
+    <div id="standbySeedField" class="appValue"></div>
+  </div>
+  <div class="appField"> XRP Balance<br />
+    <div id="standbyBalanceField" class="appValue"></div>
+  </div>
+
+  <div id="standbyTransact">
+    <p><strong>Send XRP</strong></p>
+    <div class="appField">
+      Amount<br />
+      <input id="standbyAmountField" class="appValue"></input>
+    </div>
+    <div class="appField">
+      Destination Account <br />
+      <input id="standbyDestinationField" class="appValue"></input>
+    </div>
+    <p align="right">
+      <button id="sendXrpButton" type="button">Send XRP &#8594;</button>
+    </p>
+    <p><strong>Transaction Log</strong></p>
+    <div id="standbyResultField"></div>
+  </div>
+  </div>
+
+</div>
+  <div class="flexColumn">
+<div id="operationalApp">
+  <button id="createOperationalAccountButton" type="button">Create Account</button><br />
+
+  <h2>Operational Account Info</h2>
+  <div class="appField">Operational Account<br />
+    <div id="operationalAccountField" class="appValue"></div>
+  </div>
+  <div class="appField">Public Key<br />
+    <div id="operationalPubKeyField" class="appValue"></div>
+  </div>
+  <div class="appField">Private Key<br />
+    <div id="operationalPrivKeyField" class="appValue"></div>
+  </div>
+  <div class="appField"> Seed<br />
+    <div id="operationalSeedField" class="appValue"></div>
+  </div>
+  <div class="appField"> XRP Balance<br />
+    <div id="operationalBalanceField" class="appValue"></div>
+  </div>
+
+  <div id="operationalTransact">
+    <p><strong>Send XRP</strong></p>
+    <div class="appField">
+      Amount<br />
+      <input id="operationalAmountField" class="appValue"></input>
+    </div>
+    <div class="appField">
+      Destination Account <br />
+      <input id="operationalDestinationField" class="appValue"></input>
+    </div>
+    <p align="right">
+      <button id="opSendXrpButton" type="button"> &#8592; Send XRP</button>
+    </p>
+    <p><strong>Transaction Log</strong></p>
+    <div id="operationalResultField"></div>
+  </div>
+
+</div>
+</div>
+</div>
+    <script src="./createAccountAndSend.js" type="module"></script>
+
+</body>
+
+</html>
