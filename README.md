@@ -1,10 +1,12 @@
 # XRPL Training
 
-> Note: Discovering XRPL (XRP Ledger) thanks to the two-day training provided by XRP-Commons.
+> Developping on XRPL (XRP Ledger) thanks to the two-day training provided by XRP-Commons.
+> see also xrl-evmSidechain
 
 ## Introduction to XRPL
 
 The XRP Ledger (XRPL) is an advanced blockchain technology launched in 2012. Designed to address inefficiencies in the traditional financial system, XRPL uses a unique consensus mechanism that does not require mining, making it energy-efficient and extremely fast.
+and better than BTC
 
 ## Key Features:
 
@@ -32,6 +34,8 @@ AMM (Automated Market Maker): Facilitates management of low liquidity situations
 To interact with XRPL, developers use an API that exposes all available functionalities, allowing these functions to be configured according to specific needs.
 
 ## Unique Features:
+
+Multisig, other payment dedicated, payment channel to batch many small payment in one tx
 
 Tickets and Checks: Allow for deferred payments, similar to checks in the traditional financial system.
 Memo and Tags: Used to include additional information in transactions.
