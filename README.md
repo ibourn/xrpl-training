@@ -21,7 +21,7 @@
 
 ## Introduction to XRPL
 
-In 2011, David Schwartz, Jed McCaleb, and Arthur Britto, inspired by Bitcoin, aimed to create a superior blockchain that addressed its limitations. They were joined by Chris Larsen and launched the XRP Ledger (initially called Newcoin, then OpenCoin, now Ripple) in 2012. The founders endowed Ripple with 80 billion XRP, the native currency of XRPL, most of which is now in escrow. The XRPL Foundation, established on September 24, 2020, is a nonprofit organization dedicated to supporting the development and adoption of the decentralized XRPL. It was initially funded by donations exceeding $6.5M from Coil, Ripple, and Gatehub.
+In 2011, David Schwartz, Jed McCaleb, and Arthur Britto, inspired by Bitcoin, aimed to create a superior blockchain that addressed its limitations. They were joined by Chris Larsen, launched the XRP Ledger and started the company NewCoin (renamed OpenCoin, and now Ripple) in 2012. The founders endowed Ripple with 80 billion XRP, the native currency of XRPL, most of which is now in escrow. The XRPL Foundation, established on September 24, 2020, is a nonprofit organization dedicated to supporting the development and adoption of the decentralized XRPL. It was initially funded by donations exceeding $6.5M from Coil, Ripple, and Gatehub.
 
 ## Key Features
 
