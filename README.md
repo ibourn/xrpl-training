@@ -21,12 +21,12 @@
 
 ## Introduction to XRPL
 
-In 2011, David Schwartz, Jed McCaleb, and Arthur Britto, inspired by Bitcoin, aimed to create a superior blockchain that addressed its limitations. They were joined by Chris Larsen, launched the XRP Ledger and started the company NewCoin (renamed OpenCoin, and now Ripple) in 2012. The founders endowed Ripple with 80 billion XRP, the native currency of XRPL, most of which is now in escrow. The XRPL Foundation, established on September 24, 2020, is a nonprofit organization dedicated to supporting the development and adoption of the decentralized XRPL. It was initially funded by donations exceeding $6.5M from Coil, Ripple, and Gatehub.
+In 2011, David Schwartz, Jed McCaleb, and Arthur Britto, inspired by Bitcoin, aimed to create a superior blockchain that addressed its limitations. They were joined by Chris Larsen, launched the XRP Ledger, and founded the company NewCoin (later renamed OpenCoin, and now known as Ripple) in 2012. The founders endowed Ripple with 80 billion XRP, the native currency of XRPL, most of which is now in escrow. The XRPL Foundation, established on September 24, 2020, is a nonprofit organization dedicated to supporting the development and adoption of the decentralized XRPL. It was initially funded by donations exceeding $6.5M from Coil, Ripple, and Gatehub.
 
 ## Key Features
 
-- **No Mining Required:** All supply is pre-minted. Validators have incentives tied to network security or their own service needs.
-- **Consensus Mechanism:** XRPL uses a unique Proof of Association (PoA). There are 120 validators, with 35 on the Unique Node List (UNL). These trusted validators are crucial for consensus and amendment votes. An 80% majority is required for decisions. UNL status requires approval from the independent XRPL Foundation, which assesses validators' capability and reliability to prevent downtime.
+- **No Mining Required:** All supply is pre-minted. Validators have no rewards but incentives tied to network security or their own service needs.
+- **Consensus Mechanism:** XRPL utilizes a unique Proof of Association (PoA) consensus mechanism. Currently, there are approximately 120 validators, and anyone can become a validator. Each operator maintains their own Unique Node List (UNL), which is a curated list of trusted validators (35 is the minimum recommended) they believe will not engage in fraudulent activities. An 80% majority of this UNL is necessary to achieve consensus and determine the new XRPL version (new block), including transaction and amendment votes. Approval for UNL status is granted by the independent XRPL Foundation, which evaluates validators' abilities and reliability to prevent system downtime..
 - **Performance:** Transactions are fast (3-5 seconds to settle), low-cost ($0.0002 per transaction), and scalable (1,500 transactions per second).
 - **Eco-Friendliness:** The energy-efficient design reduces the environmental impact, addressing the long transaction times, high costs, and excessive intermediaries typical in traditional financial systems.
 
